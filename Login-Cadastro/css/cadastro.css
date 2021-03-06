@@ -1,0 +1,54 @@
+.conteudo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.box{
+    width: 50%;
+    height: 100%;
+    max-width:100%;
+    background-image: url(../imgs/Coding.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    object-fit: cover;
+}
+.box-title {
+    margin-bottom: 20px;
+}
+
+
+.box-title h2{
+    font-size: 40px;
+}
+
+
+
+.cadastro-parent {
+    width: 50%;
+    height: 100%;
+    padding: 0 2%;
+    background-color: #0e5930;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cadastro {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.link-cadastrar {
+    display: block;
+}
+
+.cadastro form button{
+    width: 100%;
+    margin-top: 10px;
+}
+

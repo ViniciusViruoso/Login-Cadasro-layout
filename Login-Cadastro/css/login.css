@@ -1,0 +1,163 @@
+
+.main {
+    height: 100%;
+}
+.color-btn {
+    background-color: rgb(29, 163, 90);
+    border: 0;
+    color: white;
+}
+.login {
+    height: 100%;
+    display:flex;
+    flex-direction: row;
+}
+
+.logo {
+    position: absolute;
+    display:inline-block;
+    width: 400px;
+    height: 20px;
+    padding: 40px 40px;
+    top: 0;
+    left: 0;
+    line-height:1px;
+}
+.logo h2{
+    font-size:38px;
+    display: inline-block;
+}
+.line1 {
+    color:#1da35a;
+}
+.line2 {
+    color:rgb(55, 55, 55);
+}
+.logo small{
+    display: block;
+    font-size:15.5px;
+    color:#5c5c5c;
+}
+.dark-link {
+    display: none;
+    width: 100%;
+    margin:20px 0;
+    border:0;
+}
+.dark-link:hover {
+    width: 100%;
+    background-color: #1da35a !important;
+}
+
+.login-form {
+    width: 50%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.banner-login{
+    width: 50%;
+    height: 100%;
+    background-image: url(../imgs/Coding.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}
+
+.login-form-wrapper {
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+}
+.login-form-wrapper h2{
+    font-size:50px;
+    margin-bottom: 60px;
+}
+
+.login-form-wrapper form button{
+    width: 100%;
+}
+
+.login-form-wrapper form .options-mais1{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+.login-form-wrapper form .options-mais2{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    
+}
+.options-mais1 a, .options-mais2 a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.link-op:hover{
+    text-decoration: underline !important;
+}
+
+.bg-banner {
+    padding: 0 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+    background-color: rgba(0, 0, 0, 0.837);
+}
+
+.box-text {
+    width: 100%;
+    max-width: 690px;
+    margin-bottom: 100px;
+    line-height:30px;
+}
+.box-text h1{
+    color:#ffffff;
+    font-size:35px;
+}
+.box-text h2{
+    font-size:25px;
+    color:#ffffff;
+}
+.box-text p{
+    color:#ffffff;
+    margin-top:15px;
+    font-size:18px;
+}
+
+.box-text a {
+    padding:10px 40px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:780px) {
+    .logo {
+        width: 300px;
+        padding: 15px 15px;
+    }
+    .logo h2{
+    font-size:28px;
+    }
+    .logo small{
+        font-size:11.2px;
+    }
+    .login-form {
+        width: 100%;
+        height: 100%;
+    }
+    .banner-login {
+        display:none;
+    }
+}
