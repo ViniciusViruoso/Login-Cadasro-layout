@@ -1,5 +1,5 @@
 # Login-Cadasro-layout
 Um layout simples de tela de login e cadatro.
 
-![Captura de Tela (73)](https://user-images.githubusercontent.com/78274698/110208618-112fab00-7e67-11eb-930e-b19ead6dcccb.png)
-![Captura de Tela (75)](https://user-images.githubusercontent.com/78274698/110208626-1856b900-7e67-11eb-9501-5b8ffe3f878d.png)
+![Captura de Tela (74)](https://user-images.githubusercontent.com/78274698/110208703-80a59a80-7e67-11eb-990c-91e4fc4e7986.png)
+![Captura de Tela (75)](https://user-images.githubusercontent.com/78274698/110208706-84392180-7e67-11eb-99bc-79b0cf539574.png)
